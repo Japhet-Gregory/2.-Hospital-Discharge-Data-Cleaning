@@ -139,6 +139,8 @@ Spills the 5 distinct discharge reasons found in the raw data (Normal Discharge,
 ```
 Spills the 3 distinct region values found in the raw data (Kigoma, Katavi, Tabora). This is how the 2 non-Kigoma rows were spotted — anything other than "Kigoma" stands out immediately in the short spilled list.
 
+![Cleaning: Discharge Reason and Region](screenshots/06_cleaning_discharge_region.png)
+
 ### Date column fix: Text to Columns
 
 The broken Date Admitted column (text instead of real dates) was standardized using Excel's Text to Columns feature:
