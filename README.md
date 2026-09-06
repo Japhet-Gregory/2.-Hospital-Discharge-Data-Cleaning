@@ -125,6 +125,18 @@ Checks every row individually: "Text Error" if length of stay isn't a number, "N
 
 ![Cleaning: Dates and Days](screenshots/04_cleaning_dates_days.png)
 
+### Date column fix: Text to Columns
+
+The broken Date Admitted column (text instead of real dates) was standardized using Excel's Text to Columns feature:
+
+1. Select the entire Date column
+2. Data tab → Text to Columns
+3. Choose Delimited → Next
+4. Uncheck all delimiter boxes → Next
+5. Under Column data format, choose Date and select YMD
+6. Click Finish
+7. Format the column as Short Date or a custom `YYYY-MM-DD HH:MM:SS` format (Ctrl+1)
+
 ### Discharge Reason and Region checks
 
 **Discharge Reason, category inventory**
@@ -141,17 +153,6 @@ Spills the 3 distinct region values found in the raw data (Kigoma, Katavi, Tabor
 
 ![Cleaning: Discharge Reason and Region](screenshots/06_cleaning_discharge_region.png)
 
-### Date column fix: Text to Columns
-
-The broken Date Admitted column (text instead of real dates) was standardized using Excel's Text to Columns feature:
-
-1. Select the entire Date column
-2. Data tab → Text to Columns
-3. Choose Delimited → Next
-4. Uncheck all delimiter boxes → Next
-5. Under Column data format, choose Date and select YMD
-6. Click Finish
-7. Format the column as Short Date or a custom `YYYY-MM-DD HH:MM:SS` format (Ctrl+1)
 
 ---
 
