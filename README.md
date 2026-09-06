@@ -1,4 +1,4 @@
-# Data Cleaning Process: Hospital Admission & Discharge Records (Kigoma)
+# Data Cleaning Process: Hospital Admission & Discharge Records
 
 This documents the data-quality issues found in the raw patient admission/discharge dataset and the cleaning steps applied to resolve them, as recorded in the workbook's **Raw Dataset**, **Cleaning Process**, and **Clean Dataset** sheets.
 
